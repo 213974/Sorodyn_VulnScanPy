@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.git",
     "\\assets"
   ],
-  "SelectedNode": "\\scanner.py",
   "PreviewInSolutionExplorer": true
 }
