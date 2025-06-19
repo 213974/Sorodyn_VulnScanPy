@@ -17,8 +17,8 @@ Sorodyn_VulnScanPy is a simple web application vulnerability scanner written in 
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/213974/VulnScanPy.git
-    cd VulnScanPy
+    git clone https://github.com/213974/Sorodyn_VulnScanPy.git
+    cd Sorodyn_VulnScanPy
     ```
 2.  Create and activate a virtual environment:
     ```bash
@@ -42,4 +42,4 @@ python scanner.py --url http://testphp.vulnweb.com/
 ```
 
 ### Example Output
-![VulnScanPy Example Output](./assets/example_output.jpg)
+![Sorodyn_VulnScanPy Example Output](./assets/example_output.jpg)
