@@ -1,4 +1,8 @@
-﻿# Sorodyn_VulnScanPy - A Basic Web Vulnerability Scanner :D
+﻿█▀▀ █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █░░█ █▀▀▄
+▀▀█ █░░█ █▄▄▀ █░░█ █░░█ █▄▄█ █░░█
+▀▀▀ ▀▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ▄▄▄█ ▀░░▀
+
+# Sorodyn_VulnScanPy - A Basic Web Vulnerability Scanner :D
 
 Sorodyn_VulnScanPy is a simple web application vulnerability scanner written in Python. It's designed for educational purposes to demonstrate how scanners crawl web pages and test for common security flaws like SQL Injection (SQLi) and Cross-Site Scripting (XSS).
 
@@ -20,15 +24,34 @@ Sorodyn_VulnScanPy is a simple web application vulnerability scanner written in 
     git clone https://github.com/213974/Sorodyn_VulnScanPy.git
     cd Sorodyn_VulnScanPy
     ```
-2.  Create and activate a virtual environment:
+2.  Create a virtual environment:
     ```bash
     python -m venv venv
-    # On Windows
-    .\venv\Scripts\activate
-    # On Mac/Linux
-    source venv/bin/activate
     ```
-3.  Install the required dependencies:
+3.  Activate the virtual environment:
+
+    *   **On Windows (PowerShell):**
+        You may need to adjust your execution policy to run the activation script. Run this command first to allow scripts for the current session:
+        ```powershell
+        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+        ```
+        Then, activate the environment:
+        ```powershell
+        .\venv\Scripts\activate
+        ```
+
+    *   **On Windows (Command Prompt - CMD):**
+        Activation is simpler in CMD and does not require policy changes.
+        ```cmd
+        .\venv\Scripts\activate
+        ```
+
+    *   **On Mac/Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+
+4.  Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
@@ -42,4 +65,4 @@ python scanner.py --url http://testphp.vulnweb.com/
 ```
 
 ### Example Output
-![Sorodyn_VulnScanPy Example Output](./assets/example_output.jpg)
+![alt text](./assets/example_output.jpg)
