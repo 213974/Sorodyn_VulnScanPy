@@ -1,8 +1,4 @@
-﻿█▀▀ █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █░░█ █▀▀▄
-▀▀█ █░░█ █▄▄▀ █░░█ █░░█ █▄▄█ █░░█
-▀▀▀ ▀▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ▄▄▄█ ▀░░▀
-
-# Sorodyn_VulnScanPy - A Basic Web Vulnerability Scanner :D
+﻿# Sorodyn_VulnScanPy - A Basic Web Vulnerability Scanner :D
 
 Sorodyn_VulnScanPy is a simple web application vulnerability scanner written in Python. It's designed for educational purposes to demonstrate how scanners crawl web pages and test for common security flaws like SQL Injection (SQLi) and Cross-Site Scripting (XSS).
 
